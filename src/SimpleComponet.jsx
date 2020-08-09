@@ -2,7 +2,7 @@ import React from 'react';
 // eslint-disable-next-line import/no-extraneous-dependencies
 import PropTypes from 'prop-types';
 
-const SimpleComponent = ({ mensaje }) => (
+const SimpleComponent = ({ mensaje: mensaje }) => (
   <>
     <h1>
       Soy un componetico y me enviaron
